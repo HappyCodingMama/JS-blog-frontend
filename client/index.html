@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <title>Community</title>
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header active" id="data-header">
+      <div class="container">
+        <a href="#" class="logo">Community</a>
+
+        <nav class="navbar" id="data-navbar">
+          <div class="navbar-top">
+            <a href="#" class="logo">Community</a>
+
+            <button class="nav-close-btn" id="data-nav-toggler">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li><a href="home" class="navbar-link">Home</a></li>
+            <li><a href="topics" class="navbar-link">Topics</a></li>
+            <li><a href="featured" class="navbar-link">Featured</a></li>
+            <li><a href="recent" class="navbar-link">Recent</a></li>
+            <li><a href="#" class="navbar-link">Contact</a></li>
+          </ul>
+
+          <div class="navbar-bottom">
+            <div class="profile-card">
+              <i class="fa-regular fa-circle-user profile-banner"></i>
+              <div class="card">
+                <p class="card-title">Hello Luke !</p>
+                <p class="card-subtitle">You have 3 messages</p>
+              </div>
+            </div>
+
+            <ul class="link-list">
+              <li><a href="#" class="navbar-bottom-link">Profile</a></li>
+              <li><a href="#" class="navbar-bottom-link">Articles Saved</a></li>
+              <li><a href="#" class="navbar-bottom-link">Add New Post</a></li>
+              <li><a href="#" class="navbar-bottom-link">Likes</a></li>
+              <li><a href="#" class="navbar-bottom-link">Account</a></li>
+              <li><a href="#" class="navbar-bottom-link">Sign Out</a></li>
+            </ul>
+          </div>
+          <div class="copyright">
+            <p class="copyright-text">Designed & Built by Yang</p>
+            <small class="copyright-based">Based on codewithsadee</small>
+          </div>
+        </nav>
+
+        <button class="nav-open-btn" id="data-nav-toggler">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <!-- main -->
+    <main>
+      <article>
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="section-title">Stay curious.</h1>
+              <h2 class="headline hero-subtitle">
+                Discover stories, thinking, and expertise from writers on any
+                topic.
+              </h2>
+              <p class="hero-text">
+                You’ll find pieces by independent writers from around the globe,
+                and smart takes on our own suite of blogs and publications.
+              </p>
+
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="email-address"
+                  placeholder="Type your email"
+                  required
+                  class="input-field"
+                />
+
+                <button class="btn btn-subscribe">
+                  <span>Subscribe</span><i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="hero-banner">
+              <img
+                src="./images/main-images-1.png"
+                class="hero-banner-img"
+                alt=""
+              />
+              <img src="./images/pattern-1.png" alt="" class="shape shape-1" />
+              <img src="./images/pattern-2.png" alt="" class="shape shape-2" />
+              <img src="./images/pattern-3.png" alt="" class="shape shape-3" />
+            </div>
+          </div>
+        </section>
+
+        <section class="topics" id="topics">
+          <div class="container">
+            <div class="topic-card">
+              <div class="card-content">
+                <h2 class="section-title" id="topic-label">Trending</h2>
+
+                <p class="card-text">
+                  We are catering to those looking for fresh, new, authentic
+                  voices.
+                </p>
+
+                <div class="btn-group">
+                  <button class="btn-icon">
+                    <i class="fa-solid fa-arrow-left" id="data-slider-prev"></i>
+                  </button>
+                  <button class="btn-icon">
+                    <i
+                      class="fa-solid fa-arrow-right"
+                      id="data-slider-prev"
+                    ></i>
+                  </button>
+                </div>
+
+                <div class="slider" id="data-slider">
+                  <ul class="slider-list" id="data-slider-container">
+                    <li class="slider-item">
+                      <a href="#" class="slider-card">
+                        <div class="slider-banner">
+                          <img
+                            src="./images/topics/alison-marras-4zm5e0ZgYjE-unsplash.jpg"
+                            alt=""
+                            class="img-cover"
+                          />
+                        </div>
+                        <div class="slider-content">
+                          <span class="slider-title">Programming</span>
+                          <p class="slider-subtitle">38 Articles</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="slider-item">
+                      <a href="#" class="slider-card">
+                        <div class="slider-banner">
+                          <img
+                            src="./images/topics/amy-humphries-AllEP6K_TAg-unsplash.jpg"
+                            alt=""
+                            class="img-cover"
+                          />
+                        </div>
+                        <div class="slider-content">
+                          <span class="slider-title">Design</span>
+                          <p class="slider-subtitle">63 Articles</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="slider-item">
+                      <a href="#" class="slider-card">
+                        <div class="slider-banner">
+                          <img
+                            src="./images/topics/antonino-visalli-iI1SSTbW218-unsplash.jpg"
+                            alt=""
+                            class="img-cover"
+                          />
+                        </div>
+                        <div class="slider-content">
+                          <span class="slider-title">Movie</span>
+                          <p class="slider-subtitle">15 Articles</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="slider-item">
+                      <a href="#" class="slider-card">
+                        <div class="slider-banner">
+                          <img
+                            src="./images/topics/austin-wade-o1lNGAVrS4o-unsplash.jpg"
+                            alt=""
+                            class="img-cover"
+                          />
+                        </div>
+                        <div class="slider-content">
+                          <span class="slider-title">Recipe</span>
+                          <p class="slider-subtitle">115 Articles</p>
+                        </div>
+                      </a>
+                    </li>
+
+                    <li class="slider-item">
+                      <a href="#" class="slider-card">
+                        <div class="slider-banner">
+                          <img
+                            src="./images/topics/cala-w6ftFbPCs9I-unsplash.jpg"
+                            alt=""
+                            class="img-cover"
+                          />
+                        </div>
+                        <div class="slider-content">
+                          <span class="slider-title">Sports</span>
+                          <p class="slider-subtitle">27 Articles</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- end of main -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
